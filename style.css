@@ -1,0 +1,251 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: tahoma;
+
+}
+
+div.bialy{
+   
+    padding: 40px 0;
+}
+
+h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+p.opis{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    line-height: 180%;
+}
+
+div.col{
+    display: inline-block;
+    width: 30%;
+    margin: 20px 10px;
+   vertical-align: top;
+
+}
+
+div.col img{
+    width: 100%;
+}
+
+h3{
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+div.col a{
+    background-color: gray;
+    padding: 10px 12px;
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+    transition: 0.5s;
+
+}
+div.col a:hover{
+    background-color: rgb(189, 188, 188);
+    
+}
+
+div.col p{
+    text-align: justify;
+    line-height: 180%;
+}
+
+div.shary{
+    
+    background-color: rgb(224, 220, 220);
+    padding: 40px;
+}
+div.col3{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin: auto 10px;
+   
+}
+
+div.col3 p{
+    line-height: 180%;
+
+}
+
+div.shary h2{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+div.laminat{
+    background-image: url(bg-quote-01.jpg);
+    padding: 80px;
+    color: white;
+    font-size: 20px
+}
+
+div.banner{
+    background-image:url(bg-business.jpg);
+    padding: 250px;
+    color: white;
+    
+}
+
+div.banner h1{
+    font-weight: 500;
+    font-size: 40px;
+   
+}
+div.menu{
+    
+    background-color: black;
+    padding-top: 50px;
+   
+    
+
+}
+div.menu a{
+    width: 225px;
+}
+div.menu img:hover{
+    background-color: green;
+}
+div.menu img{
+padding: 15px;
+transition: 0.5s;
+vertical-align: bottom;
+margin-right: 30px;
+
+
+}
+div.nav a{
+    display: inline-block;
+    padding: 20px;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+div.nav a:hover{
+    background-color: white;
+    color:black
+}
+div.nav{
+    display: inline-block;
+}
+
+div.nie{
+    background-color: rgb(19, 94, 124);
+    padding: 40px;
+vertical-align: middle;
+font-size: 17px;
+color: white;
+    
+  
+    
+}
+
+div.tech {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    font-size: 17px;
+}
+
+div.nie a{
+    display: block;
+    background-color: whitesmoke;
+    color: rgb(19, 94, 124);
+    width: 300px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+div.nie a:hover{
+    background-color: rgb(180, 175, 175);
+}
+
+div.wer{
+    background-color: whitesmoke;
+    padding: 100px;
+}
+div.wer h2{
+    font-weight: 500;
+    color: black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div.wer a{
+    background-color: gray;
+    padding: 12px 40px;
+    display: inline-block;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 15px;
+    
+
+
+}
+
+div.wer a:hover{
+    background-color: rgb(179, 175, 175);
+}
+div.pomoca{
+    background-color: rgb(173, 171, 171);
+    padding: 40px;
+
+}
+div.pomoc{
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px;
+    
+}
+
+div.pomoc a{
+    text-decoration: none;
+    display: block;
+    color: rgb(61, 60, 60);
+    padding: 5px 0px;
+    text-align: left;
+    
+}
+
+div.pomoc h2{
+    text-align: left;
+}
+
+div.pomoc a:hover{
+    text-decoration: underline;
+}
